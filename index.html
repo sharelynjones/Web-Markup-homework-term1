@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>homework lecture 3</title>
+	<nav>
+		<a href="Home.html">Home</a>
+		<a href="Product.html">Product</a> 
+		<a href="Serice.html">Service</a>
+	</nav>
+	
+</head>
+<body>
+	<h1>Contact by email</h1>
+	<h2>Please select the topic you would like to contact us about. So,we can serve you better and faster.</h2>
+
+<select>
+  <option value="Choice">Make a choice</option>
+  <option value="Order">I have a question about an order</option>
+  <option value="Info">I like to have more information about a computer</option>
+  <option value="Other">I have an other question</option>
+</select>
+
+<h2>Conatct about</h2>
+
+<fieldset>
+<select>
+  <option value="Topic choice">Choose topic</option>
+  <option value="O&D">Oredering and delivery</option>
+  <option value="C&R">Cancel and return</option>
+  <option value="GV">Gift voucher</option>
+  <option value="Other">Other questions</option>
+</select>
+
+<form action="/send email" method="get">
+	<p>
+		<label>Note*:<label><br>
+		<input type="text" name="note"><br>
+		<small>The notes can be up to 5000 charachters</small>
+	</p>
+
+	<p>Add an attachment?<small>(optional)</small></p>
+	<button>Choose file</button><br>
+	<small>Up to 10MB in size</small>
+
+	<p>
+		<label>First and last name *:</label><br>
+		<input type="text" name="F&Lname"><br>	
+	</p>
+
+	<p>
+		<label>Phone number</label><br>
+		<input type="text" name="number"><br>
+		<small>More than 80% of our customers share a reachable number, so we can better help.</small>
+	</p>
+
+	<p>
+		<label>E-mail address</label><br>
+		<input type="text" name="email">
+	</p>
+
+	<p>
+		<button>>Send email</button>
+	</p>
+
+</form>
+</fieldset>
+
+<video width="400" height="325" controls>
+  <source src="promotion video.mp4" type="video/mp4">
+  <source src="promotion video.ogv" type="video/ogv">
+  Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
